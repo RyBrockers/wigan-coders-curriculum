@@ -4,6 +4,8 @@ import Home from '@/components/Home'
 import Signup from '../components/Signup'
 import Login from '@/components/Login'
 import Curriculum from '@/components/Curriculum'
+import GettingStarted from '@/components/GettingStarted'
+
 import firebase from 'firebase'
 
 Vue.use(Router)
@@ -41,7 +43,13 @@ const router = new Router({
       meta: {
         requiresAuth: true
       }
-    }
+    },
+
+    {
+      path: '/getting-started',
+      name: 'GettingStarted',
+      component: GettingStarted
+    },
   ]
 })
 

@@ -8,6 +8,8 @@
   <li v-if="!user"><router-link :to="{name: 'Signup'}">Signup</router-link></li>
   <li v-if="!user"><router-link :to="{name: 'Login'}">Login</router-link></li>
   <li v-if="user"><router-link :to="{name: 'Curriculum'}">Curriculum</router-link></li>
+  <li v-if="user"><router-link :to="{name: 'GettingStarted'}">Getting Started</router-link></li>
+
 
 
 
