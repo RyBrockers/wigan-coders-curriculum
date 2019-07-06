@@ -3,12 +3,15 @@
 <nav class="black">
   <div class="container">
 <router-link :to="{name: 'Home'}" class="brand-logo left">Wigan Coders</router-link>
+
 <ul class="right">
   <li v-if="!user"><router-link :to="{name: 'Signup'}">Signup</router-link></li>
   <li v-if="!user"><router-link :to="{name: 'Login'}">Login</router-link></li>
+  <li v-if="user"><router-link :to="{name: 'Curriculum'}">Curriculum</router-link></li>
 
 
-  <li v-if="user">
+
+  <li v-if="user" class="logout-li">
             <a @click="logout">Logout</a>
           </li>
 </ul>

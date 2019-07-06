@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Signup from '../components/Signup'
 import Login from '@/components/Login'
+import Curriculum from '@/components/Curriculum'
 import firebase from 'firebase'
 
 Vue.use(Router)
@@ -31,6 +32,15 @@ const router = new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+
+    {
+      path: '/curriculum',
+      name: 'Curriculum',
+      component: Curriculum,
+      meta: {
+        requiresAuth: true
+      }
     }
   ]
 })

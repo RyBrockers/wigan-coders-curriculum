@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="curriculum">
     <div class="container">
-      <h4>Welcome </h4>
+      <h4>Welcome to the curriculum</h4>
       <div class="card center">
         <p>Lets Learn</p>
       </div>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Curriculum',
   data() {
     return {
 
