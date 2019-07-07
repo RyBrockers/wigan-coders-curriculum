@@ -25,7 +25,7 @@
 
 <script>
 import slugify from "slugify";
-import db from "../../Firebase/init";
+import db from "../../../Firebase/init";
 import firebase from "firebase";
 
 

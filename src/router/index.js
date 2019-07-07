@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
-import Signup from '../components/Signup'
-import Login from '@/components/Login'
-import Curriculum from '@/components/Curriculum'
-import GettingStarted from '@/components/GettingStarted'
+import Home from '@/components/Layout/Home'
+import Signup from '@/components/Auth/Signup'
+import Login from '@/components/Auth/Login'
+import Curriculum from '@/components/Curriculum/Curriculum'
+import GettingStarted from '@/components/Curriculum/GettingStarted'
 
 import firebase from 'firebase'
 
