@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-<nav class="black">
+<nav class="grey darken-3">
   <div class="container">
 <router-link :to="{name: 'Home'}" class="brand-logo left">Wigan Coders</router-link>
 

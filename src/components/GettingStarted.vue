@@ -1,9 +1,19 @@
 <template>
   <div class="getting-started">
     <div class="getting-started-container">
-      <h4>Welcome </h4>
-      <div class="getting-started-card center">
-        <p>Lets Learn</p>
+      <h3>Getting Started</h3>
+      <div class="getting-started card">
+        <h4>Setup</h4>
+        <p>Here at Wigan Coders we require some small setup steps before we start.</p>
+        <div class="getting-started-ul">
+          <ul>
+            <li>* For Mac users this process is a little easier. We use the Terminal. For Windows users this is the Command Prompt. If you are a Windows user, we recommend downloading <a href="https://gitforwindows.org/" target="blank">GitBash</a></li>
+            <li>* Create a <a href="https://github.com" target="blank">GitHub</a> account. We use this software to save all our code we write and enable us to share it with eachother! Pretty cool right? Don't worry if you don't understand GitHub right now. We will go over this quite a lot during this course.</li>
+            <li>* Set an <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="blank">SSH KEY</a> to your GitHub account. This is so when we upload our code to GitHub, it knows who we are. Please be carefull with this step and follow this instructions form start to finish. Never attempt anything if you are unsure.</li>
+            <li></li>
+
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -23,8 +33,16 @@ export default {
 
 
 
-<style>
+<style scoped>
 h4 {
   text-align: center;
+}
+
+li {
+  padding: 10px;
+}
+
+.getting-started {
+  padding: 10px;
 }
 </style>
