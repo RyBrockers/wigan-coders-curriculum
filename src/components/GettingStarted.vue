@@ -11,8 +11,12 @@
             <li>* Create a <a href="https://github.com" target="blank">GitHub</a> account. We use this software to save all our code we write and enable us to share it with eachother! Pretty cool right? Don't worry if you don't understand GitHub right now. We will go over this quite a lot during this course.</li>
             <li>* Set an <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="blank">SSH KEY</a> to your GitHub account. This is so when we upload our code to GitHub, it knows who we are. Please be carefull with this step and follow this instructions form start to finish. Never attempt anything if you are unsure.</li>
             <li>* Install <a href="https://nodejs.org/en/" target="blank">Node.Js</a> and <a href="https://www.npmjs.com/" target="blank">NPM</a> package manager. <a href="https://nodejs.org/en/" target="blank">Node.Js</a> is a JavaScript runtime engine used with Chrome browsers. <a href="https://www.npmjs.com/" target="blank">NPM</a> is a package manager for installing dependantcies to our projects. Please follow the setip instructions carefully.</li>
+            <li>* Install<span> Git</span> to your computer</li>
+            <li>* Install a code editor. For this course we will use <a href="https://code.visualstudio.com/" target="blank">Visual Sudio Code</a></li>
+            <li>* Finally we install <a href="https://eslint.org/docs/user-guide/getting-started" target="blank">es-lint</a></li>
 
           </ul>
+          <button class="btn green darken-2">Setup your computer</button>
         </div>
       </div>
     </div>
@@ -46,7 +50,18 @@ li {
   padding: 10px;
 }
 
+.getting-started-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
 .getting-started .card {
   background: #e4e3e2;
+  width: 80%;
+  padding: 30px;
+
 }
 </style>

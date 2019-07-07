@@ -24,9 +24,35 @@
           <li>* Complete your first "Portfolio" HTML document.</li>
 
         </ul>
-        <button class=" btn green">Get Started</button>
+        <button class=" btn green darken-2">Get Started</button>
+      </div>
+      <div class="card left">
+        <h4>CSS3</h4>
+        <p>A 7 day course that will give you the skills to create your own Landing Page!</p>
+        <ul>
+          <p><span class="curriculum-span blue-grey lighten-4">Stage 1</span></p>
+          <li>* Start at the begining. Learn the history of CSS and understand it's importance and purpose.</li>
+          <li>* Learn how to create a CSS stylesheet and understand it's Structure.</li>
+          <li>* Learn fundamental CSS selectors and how to code them.</li>
+          <li>* Learn the use cases of these selectors.</li>
+          <li>* Complete your first "Hello World!" HTML/CSS document.</li>
+
+        </ul>
+
+         <ul>
+          <p><span class="curriculum-span blue-grey lighten-4">Stage 2</span></p>
+          <li>* Learn about FlexBox.</li>
+          <li>* Complete FlexBox Froggy.</li>
+          <li>* Learn about positioning elements</li>
+          <li>* Learn simple CSS animations</li>
+          <li>* Complete your first "Portfolio" HTML/CSS document.</li>
+
+        </ul>
+        <button class=" btn green darken-2">Get Started</button>
       </div>
     </div>
+
+
   </div>
 </template>
 
@@ -53,6 +79,8 @@ h4 {
   padding: 10px;
   margin-top: 60px;
   padding: 20px;
+  background: #fafafa;
+  width: 50%;
 
 }
 
