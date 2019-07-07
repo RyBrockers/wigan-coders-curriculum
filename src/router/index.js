@@ -5,6 +5,7 @@ import Signup from '@/components/Auth/Signup'
 import Login from '@/components/Auth/Login'
 import Curriculum from '@/components/Curriculum/Curriculum'
 import GettingStarted from '@/components/Curriculum/GettingStarted'
+import Setup from '@/components/Curriculum/Setup'
 
 import firebase from 'firebase'
 
@@ -49,6 +50,12 @@ const router = new Router({
       path: '/getting-started',
       name: 'GettingStarted',
       component: GettingStarted
+    },
+
+    {
+      path: '/setup',
+      name: 'Setup',
+      component: Setup
     },
   ]
 })
