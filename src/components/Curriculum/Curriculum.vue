@@ -1,7 +1,7 @@
 <template>
   <div class="curriculum">
     <div class="card-container">
-      <h3>Wigan Coders Pathway</h3>
+      <h3 class="curriculum-h3">Wigan Coders Pathway</h3>
       <div class="card left">
         <h4>HTML</h4>
         <p>A 14 day course that will give you the skills to create your own Portfolio!</p>
@@ -98,5 +98,9 @@ li {
 .curriculum-span {
   font-weight: bold;
   padding: 5px;
+}
+
+.curriculum-h3 {
+  text-align: center;
 }
 </style>

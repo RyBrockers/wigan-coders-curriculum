@@ -18,7 +18,7 @@
             <li>* Install a code editor. For this course we will use <a href="https://code.visualstudio.com/" target="blank">Visual Sudio Code</a></li>
             <li>* Finally we install <a href="https://eslint.org/docs/user-guide/getting-started" target="blank">es-lint</a></li>
           </ul>
-          <router-link :to="{name: 'Setup'}"><button class="btn green">Setup your computer</button></router-link>
+          <router-link :to="{name: 'Setup'}" class="btn green">Setup your computer</router-link>
         </div>
       </div>
     </div>

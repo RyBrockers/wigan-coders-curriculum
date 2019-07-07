@@ -1,37 +1,41 @@
 <template>
   <div class="navbar">
-<nav class="grey darken-3">
-  <div class="container">
-<router-link :to="{name: 'Home'}" class="brand-logo left">Wigan Coders</router-link>
+    <nav class="grey darken-3">
+      <div class="container">
+        <router-link :to="{name: 'Home'}" class="brand-logo left">Wigan Coders</router-link>
 
-<ul class="right">
-  <li v-if="!user"><router-link :to="{name: 'Signup'}">Signup</router-link></li>
-  <li v-if="!user"><router-link :to="{name: 'Login'}">Login</router-link></li>
-  <li v-if="user"><router-link :to="{name: 'Curriculum'}">Curriculum</router-link></li>
-  <li v-if="user"><router-link :to="{name: 'GettingStarted'}">Getting Started</router-link></li>
+        <ul class="right">
+          <li v-if="!user">
+            <router-link :to="{name: 'Signup'}">Signup</router-link>
+          </li>
+          <li v-if="!user">
+            <router-link :to="{name: 'Login'}">Login</router-link>
+          </li>
+          <li v-if="user">
+            <router-link :to="{name: 'Curriculum'}">Curriculum</router-link>
+          </li>
+          <li v-if="user">
+            <router-link :to="{name: 'GettingStarted'}">Getting Started</router-link>
+          </li>
 
-
-
-
-  <li v-if="user" class="logout-li">
+          <li v-if="user" class="logout-li">
             <a @click="logout">Logout</a>
           </li>
-</ul>
-  </div>
-</nav>
+        </ul>
+      </div>
+    </nav>
   </div>
 </template>
 
 <script>
-
 import firebase from "firebase";
 
 export default {
-  name: 'Navbar',
-  data () {
+  name: "Navbar",
+  data() {
     return {
       user: null
-    }
+    };
   },
 
   methods: {
@@ -54,9 +58,26 @@ export default {
     });
   }
 };
-
 </script>
 
 <style>
+.brand-logo {
+  position: absolute;
+  width: auto;
+}
 
+nav ul {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 30px;
+}
+
+nav {
+  height: 90px;
+}
+
+nav ul a {
+  transition: none !important;
+}
 </style>

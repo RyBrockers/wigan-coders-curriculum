@@ -60,10 +60,12 @@
                 <ul class="ssh-ul">
                   <li>1. Open the Terminal</li>
                   <li>2. Enter  <span class="highlight-span"> al   ~/  .ssh</span> . This will search for any exsisting keys you may already have on your computer.</li>
-
                 </ul>
               </div>
             </div>
+             <div class="ssh-image-div">
+                <img src="static/images/Screenshot 2019-07-07 at 20.49.38 copy.png" alt="mac-terminal-image" class="ssh-image">
+                </div>
           </ul>
         </div>
       </div>
@@ -124,6 +126,14 @@ export default {
 background: #c7c7c7;
 border-radius: 3px;
 padding: 4px;
+}
+
+.ssh-image-div {
+  width: auto;
+}
+
+.ssh-image-div img {
+      max-width: -webkit-fill-available;
 }
 </style>
 
