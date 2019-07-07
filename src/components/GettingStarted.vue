@@ -10,7 +10,7 @@
             <li>* For Mac users this process is a little easier. We use the Terminal. For Windows users this is the Command Prompt. If you are a Windows user, we recommend downloading <a href="https://gitforwindows.org/" target="blank">GitBash</a></li>
             <li>* Create a <a href="https://github.com" target="blank">GitHub</a> account. We use this software to save all our code we write and enable us to share it with eachother! Pretty cool right? Don't worry if you don't understand GitHub right now. We will go over this quite a lot during this course.</li>
             <li>* Set an <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="blank">SSH KEY</a> to your GitHub account. This is so when we upload our code to GitHub, it knows who we are. Please be carefull with this step and follow this instructions form start to finish. Never attempt anything if you are unsure.</li>
-            <li></li>
+            <li>* Install <a href="https://nodejs.org/en/" target="blank">Node.Js</a> and <a href="https://www.npmjs.com/" target="blank">NPM</a> package manager. <a href="https://nodejs.org/en/" target="blank">Node.Js</a> is a JavaScript runtime engine used with Chrome browsers. <a href="https://www.npmjs.com/" target="blank">NPM</a> is a package manager for installing dependantcies to our projects. Please follow the setip instructions carefully.</li>
 
           </ul>
         </div>
@@ -34,7 +34,7 @@ export default {
 
 
 <style scoped>
-h4 {
+h3 {
   text-align: center;
 }
 
@@ -44,5 +44,9 @@ li {
 
 .getting-started {
   padding: 10px;
+}
+
+.getting-started .card {
+  background: #e4e3e2;
 }
 </style>
