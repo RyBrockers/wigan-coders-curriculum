@@ -7,7 +7,7 @@
         <div class="getting-started-image">
         <img src="static/images/images.png" alt="computer-image">
         </div>
-        <p class="getting-started-p">Here at Wigan Coders we require some small setup steps before we start</p>
+        <p class="getting-started-p">Here at Wigan Coders we require some small setup steps before we start.</p>
         <div class="getting-started-ul">
           <ul>
             <li>* For Mac users this process is a little easier. We use the Terminal. For Windows users this is the Command Prompt. If you are a Windows user, we recommend downloading <a href="https://gitforwindows.org/" target="blank">GitBash</a></li>
@@ -18,7 +18,7 @@
             <li>* Install a code editor. For this course we will use <a href="https://code.visualstudio.com/" target="blank">Visual Sudio Code</a></li>
             <li>* Finally we install <a href="https://eslint.org/docs/user-guide/getting-started" target="blank">es-lint</a></li>
           </ul>
-          <router-link :to="{name: 'Setup'}"><button class="btn green darken-2">Setup your computer</button></router-link>
+          <router-link :to="{name: 'Setup'}"><a class="btn green darken-2">Setup your computer</a></router-link>
         </div>
       </div>
     </div>
