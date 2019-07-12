@@ -4,7 +4,7 @@
     <div class="container">
       <div class="setup-div card">
         <div class="step-1">
-          <h4>Step 1</h4>
+          <h4 class="step-h4">Step 1</h4>
           <ul>
             <div class="logo-image">
               <img src="static/images/gwindows_logo.png" alt="git-bash-image" />
@@ -33,7 +33,7 @@
 
       <div class="setup-div card">
         <div class="step-1">
-          <h4>Step 2</h4>
+          <h4 class="step-h4">Step 2</h4>
           <ul>
             <img src="static/images/github-octocat.png" alt="git-bash-image" class="github-image" />
             <li class="setup-li">
@@ -74,6 +74,20 @@
           </ul>
         </div>
       </div>
+
+          <div class="setup-div card">
+        <div class="step-1">
+          <h4 class="step-h4">Step 3</h4>
+          <ul>
+            <img src="static/images/vscode-icon.png" alt="vscode-image" class="vscode-image" />
+            <li class="setup-li">
+              Next we will create a
+              <span class="step-1-span">VSCode</span> account.
+            </li>
+
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -92,7 +106,13 @@ export default {
 <style>
 .setup-h2 {
   text-align: center;
+    font-family: 'Montserrat', sans-serif;
+color: #00a1d6;
+font-size: 30px;
+font-weight: bold;
+margin-top: 40px;
 }
+
 
 .setup-div {
   padding: 10px;
@@ -145,10 +165,21 @@ export default {
 
 .step-1 {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .ssh-key-link {
   padding: 40px;
+}
+
+.step-h4 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 </style>
 

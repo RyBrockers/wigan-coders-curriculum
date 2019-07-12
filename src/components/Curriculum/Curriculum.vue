@@ -105,6 +105,9 @@ li {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 color: #00a1d6;
+font-size: 30px;
+font-weight: bold;
+margin-top: 40px;
 }
 
 .info-p {

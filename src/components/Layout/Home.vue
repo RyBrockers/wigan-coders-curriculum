@@ -2,15 +2,36 @@
   <div class="home">
       <h1 class="home-h1">Have a look at what we have been up to.</h1>
     <div class="container">
-      <div class="card center">
-        <h3 class="home-h3">As seen on Instagram!</h3>
+<div class="card center">
+  <h2 class="up-h2">Get up and going!</h2>
+<div class="home-card-content">
+  <p>We have some great resources you can use to get Up and Going straight away and start to learn how to code today.</p>
+  <div class="free-courses">
+<div class="card blue-grey udemy">
+  <h2 class="udemy-h2">Udemy</h2>
+  <p>A great free resource that also has a premium section. There are some very high quality free courses on Udemy. For HTML, CSS, JAVASCRIPT and much more</p>
+  <a class="btn green code-academy-btn">Learn More</a>
 
+</div>
+<div class="card blue-grey free-code-camp">
+  <h2 class="free-code-camp-h2">Free-Code-Camp</h2>
+  <p>A great free resource that also has a premium section. There are some very high quality free courses on Udemy. For HTML, CSS, JAVASCRIPT and much more</p>
+  <a class="btn green code-academy-btn">Learn More</a>
 
-        </div>
+</div>
+<div class="card blue-grey code-academy">
+  <h2 class="code-academy-h2">Code-Academy</h2>
+  <p>A great free resource that also has a premium section. There are some very high quality free courses on Udemy. For HTML, CSS, JAVASCRIPT and much more</p>
+  <a class="btn green code-academy-btn">Learn More</a>
+</div>
+  </div>
+</div>
+</div>
       </div>
-      <footer>
           <div class="card insta-div">
-   <vue-instagram token="16190182252.1677ed0.c5289a2dab244b999103af2d61878af1" username="Wigancoding" :count="3">
+         <h3 class="home-h3">As seen on Instagram!</h3>
+
+   <vue-instagram token="16190182252.1677ed0.c5289a2dab244b999103af2d61878af1" class="the-feed" username="Wigancoding" :count="4">
     <template slot="feeds" scope="props">
         <img :src=" props.feed.images.thumbnail.url " alt="" class="feed-image">
     </template>
@@ -19,7 +40,6 @@
     </template>
 </vue-instagram>
         </div>
-</footer>
     </div>
 
 </template>
@@ -54,10 +74,7 @@ h4 {
   text-align: center;
 }
 
-.home {
-  font-size: 40px;
 
-}
 
 .home-h1 {
   margin-bottom: 30px;
@@ -71,9 +88,86 @@ h4 {
 
 .card  {
 margin-top: 30px;
+
 }
 
 .feed-image {
   padding: 5px;
+}
+
+.insta-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.up-h2 {
+    text-align: center;
+  font-family: 'Montserrat', sans-serif;
+color: #00a1d6;
+font-size: 30px;
+font-weight: bold;
+margin-top: 40px;
+}
+
+.free-courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.udemy {
+  width: 33%;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
+
+.udemy-h2 {
+  color: #d60004;
+  font-weight: bold;
+}
+.free-code-camp {
+  width: 33%;
+   border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.free-code-camp-h2 {
+  color: #34a249;
+  font-weight: bold;
+}
+.code-academy {
+  width: 33%;
+   border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.code-academy-h2 {
+  color: #000;
+  font-weight: bold;
+}
+
+.the-feed {
+  margin-left: 26px;
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.container {
+  padding: 20px;
+  width: auto;
+  height: auto;
 }
 </style>
