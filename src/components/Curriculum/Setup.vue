@@ -108,11 +108,13 @@
           <h6>To generate a new SSH KEY</h6>
               <p>Paste the text below, substituting in your email address. the email address you use with GitHub</p>
               <li>
-                3.
+
                 <span class="highlight-span">ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</span>
               </li>
-              <div class="logo-image">
-              </div>
+              <p>Then your are prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.</p>
+              <li>
+                <span class="highlight-span">Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]</span>
+              </li>
             </div>
           </ul>
         </div>
