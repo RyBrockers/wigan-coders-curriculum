@@ -4,7 +4,12 @@
     <div class="container">
       <div class="card center">
         <h3 class="home-h3">As seen on Instagram!</h3>
-        <div class="insta-div">
+
+
+        </div>
+      </div>
+      <footer>
+          <div class="card insta-div">
    <vue-instagram token="16190182252.1677ed0.c5289a2dab244b999103af2d61878af1" username="Wigancoding" :count="3">
     <template slot="feeds" scope="props">
         <img :src=" props.feed.images.thumbnail.url " alt="" class="feed-image">
@@ -14,9 +19,7 @@
     </template>
 </vue-instagram>
         </div>
-
-        </div>
-      </div>
+</footer>
     </div>
 
 </template>
