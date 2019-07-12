@@ -1,7 +1,7 @@
 <template>
   <div class="setup">
     <h2 class="setup-h2">Computer setup</h2>
-    <div class="container">
+    <div class="container-setup">
       <div class="setup-div card">
         <div class="step-1">
           <h4 class="step-h4">Step 1</h4>
@@ -35,7 +35,11 @@
         <div class="step-1">
           <h4 class="step-h4">Step 2</h4>
           <ul>
-            <img src="static/images/github-octocat.png" alt="git-bash-image" class="github-image" />
+            <img
+              src="static/images/github-octocat co.png"
+              alt="git-bash-image"
+              class="github-image"
+            />
             <li class="setup-li">
               Next we will create a
               <span class="step-1-span">GitHub</span> account. We use GitHub to keep track of our code and save it. We can share our code and collaberate with other dev's using GitHub. Find out more about GitHub and why we use it
@@ -68,23 +72,33 @@
                 <span class="highlight-span">ssh-add -K ~/.ssh/id_rsa</span>
               </li>
               <div class="ssh-key-link">
-             <a href="https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account"><h6>Add the SSH key to your GitHub account</h6></a>
+                <a
+                  href="https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account"
+                >
+                  <h6>Add the SSH key to your GitHub account</h6>
+                </a>
               </div>
             </div>
           </ul>
         </div>
       </div>
 
-          <div class="setup-div card">
+      <div class="setup-div card">
         <div class="step-1">
           <h4 class="step-h4">Step 3</h4>
           <ul>
             <img src="static/images/vscode-icon.png" alt="vscode-image" class="vscode-image" />
             <li class="setup-li">
-              Next we will create a
-              <span class="step-1-span">VSCode</span> account.
+              Next we will download and install
+              <span class="step-1-span">VSCode</span> to our computers.
+              <span class="step-1-span">Visual Studio Code</span> is a program developed by Microsoft. It is also known as a Text-Editor. There are many of these programs/text-editors and most of them are completely free to download and start using. Throughout this course we will use VSCode over the other editors as we feel it has many addon's and plugins for certain computer languages that will help us write them. And also recognise the syntax used.
             </li>
 
+            <li>
+              <a href="https://code.visualstudio.com/" target="blank">GET STARTED WITH VISUAL STUDIO CODE</a>
+            </li>
+            <P class="vscode-p">Once installed. When ou run the software, it should look like this</P>
+            <img src="static/images/Screenshot-vscode.png" alt="">
           </ul>
         </div>
       </div>
@@ -104,19 +118,26 @@ export default {
 
 
 <style>
-.setup-h2 {
-  text-align: center;
-    font-family: 'Montserrat', sans-serif;
-color: #00a1d6;
-font-size: 30px;
-font-weight: bold;
-margin-top: 40px;
+.setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.setup-h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #00a1d6;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+}
 
 .setup-div {
   padding: 10px;
   margin-top: 30px;
+  background: #d9e7ec;
 }
 
 .logo-image {
@@ -169,6 +190,7 @@ margin-top: 40px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 15px;
 }
 
 .ssh-key-link {
@@ -180,6 +202,15 @@ margin-top: 40px;
   font-weight: bold;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+.container-setup {
+  width: 50%;
+}
+
+.vscode-p {
+  padding: 10px;
+  margin-top: 30px;
 }
 </style>
 

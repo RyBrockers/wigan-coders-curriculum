@@ -3,7 +3,7 @@
     <div class="card-container">
       <h3 class="curriculum-h3">Wigan Coders Pathway</h3>
       <div class="card left">
-        <h4>HTML</h4>
+        <h4 class="curr-h4">HTML</h4>
         <p class="info-p">A 14 day course that will give you the skills to create your own Portfolio!</p>
         <ul>
           <p><span class="curriculum-span blue-grey lighten-4">Week 1</span></p>
@@ -27,7 +27,7 @@
         <button class=" btn green darken-2">Get Started</button>
       </div>
       <div class="card left">
-        <h4>CSS3</h4>
+        <h4 class="curr-h4">CSS3</h4>
         <p class="info-p">A 7 day course that will give you the skills to create your own Landing Page!</p>
         <ul>
           <p><span class="curriculum-span blue-grey lighten-4">Stage 1</span></p>
@@ -79,8 +79,8 @@ h4 {
   padding: 10px;
   margin-top: 60px;
   padding: 20px;
-  background: #fafafa;
-  width: 75%;
+  background: #d9e7ec;
+  width: 50%;
   font-size: 18px;
 
 }
@@ -96,8 +96,13 @@ li {
   padding: 10px;
 }
 
-.curriculum-span {
+p  {
   font-weight: bold;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+p span {
   padding: 5px;
 }
 
@@ -112,5 +117,12 @@ margin-top: 40px;
 
 .info-p {
   padding: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.curr-h4 {
+  font-weight: bold;
+  font-size: 25px;
 }
 </style>
