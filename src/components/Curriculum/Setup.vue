@@ -4,11 +4,11 @@
     <div class="container">
       <div class="setup-div card">
         <div class="step-1">
-          <h5>Step 1</h5>
+          <h4>Step 1</h4>
           <ul>
-             <div class="logo-image">
-                <img src="static/images/gwindows_logo.png" alt="git-bash-image" />
-              </div>
+            <div class="logo-image">
+              <img src="static/images/gwindows_logo.png" alt="git-bash-image" />
+            </div>
             <li class="setup-li">
               For
               <span class="step-1-span">Mac</span> users we will be using the terminal. This is already installed on Mac devices. However there are some small changes we can make. We can change the shell from .bash to .zsh. Learn what this means and how to do this
@@ -26,95 +26,50 @@
                   target="blank"
                 >GitBash</a> . This is an emulator for the Windows Command Prompt that allow's us to use Mac commands.
               </li>
-
             </div>
           </ul>
         </div>
       </div>
 
-      <!-- <div class="setup-div card">
-        <div class="step-2">
-          <h5>Step 2</h5>
-          <ul>
-            <div class="git-bash-div">
-              <div class="logo-image">
-                <img src="static/images/github-octocat.png" alt="git-bash-image" />
-              </div>
-              <div>
-                <li class="setup-li">
-                  Next we will create a
-                  <span class="step-1-span">GitHub</span> account. We use GitHub to keep track of our code and save it. We can share our code and collaberate with other dev's using GitHub. Find out more about GitHub and why we use it
-                  <a
-                    href="https://github.com"
-                    target="blank"
-                  >HERE</a>
-                </li>
-                <li>
-                  Then we need to generate an
-                  <a
-                    href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account"
-                    target="blank"
-                  >SSH KEY</a>
-                  For
-                  <span class="step-1-span">Mac</span> users follow the instruction below.
-                </li>
-                <ul class="ssh-ul">
-                  <li>1. Open the Terminal</li>
-                  <li>
-                    2. Enter
-                    <span class="highlight-span">ls al ~/ .ssh</span> . This will search for any exsisting keys you may already have on your computer.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </ul>
-          <div class="ssh-image-div">
-            <img
-              src="static/images/Screenshot 2019-07-07 at 20.49.38 copy.png"
-              alt="mac-terminal-image"
-              class="ssh-image"
-            />
-          </div>
-
-        </div>
-          <div class="new-ssh">
-            <ul class="ssh-ul">
-              <h6>To generate a new SSH KEY</h6>
-              <p>Paste the text below, substituting in your email address. the email address you use with GitHub</p>
-              <li>
-                3.
-                <span class="highlight-span">ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</span>
-              </li>
-            </ul>
-          </div>
-      </div> -->
-           <div class="setup-div card">
+      <div class="setup-div card">
         <div class="step-1">
-          <h5>Step 2</h5>
-
+          <h4>Step 2</h4>
           <ul>
-                <img src="static/images/github-octocat.png" alt="git-bash-image" class="github-image"/>
-
+            <img src="static/images/github-octocat.png" alt="git-bash-image" class="github-image" />
             <li class="setup-li">
-
-                  Next we will create a
-                  <span class="step-1-span">GitHub</span> account. We use GitHub to keep track of our code and save it. We can share our code and collaberate with other dev's using GitHub. Find out more about GitHub and why we use it
-                  <a
-                    href="https://github.com"
-                    target="blank"
-                  >HERE</a>
-                </li>
+              Next we will create a
+              <span class="step-1-span">GitHub</span> account. We use GitHub to keep track of our code and save it. We can share our code and collaberate with other dev's using GitHub. Find out more about GitHub and why we use it
+              <a
+                href="https://github.com"
+                target="blank"
+              >HERE</a>
+            </li>
             <div class="git-bash-div">
-          <h6>To generate a new SSH KEY</h6>
+              <h5>To generate a new SSH KEY</h5>
               <p>Paste the text below, substituting in your email address. the email address you use with GitHub</p>
               <li>
-
                 <span class="highlight-span">ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</span>
               </li>
               <p>Then your are prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.</p>
               <li>
-                <span class="highlight-span">Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]</span>
+                <span
+                  class="highlight-span"
+                >Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]</span>
               </li>
+              <p>Then at the prompt, enter a passphrase or press Enter twice to skip this step</p>
+              <li>
+                <span class="highlight-span">
+                  Enter passphrase (empty for no passphrase): [Type a passphrase]
+                  <br />Enter same passphrase again: [Type passphrase again]
+                </span>
+              </li>
+              <p>Add your private SSH key to the agent.</p>
+              <li>
+                <span class="highlight-span">ssh-add -K ~/.ssh/id_rsa</span>
+              </li>
+              <div class="ssh-key-link">
+             <a href="https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account"><h6>Add the SSH key to your GitHub account</h6></a>
+              </div>
             </div>
           </ul>
         </div>
@@ -182,7 +137,6 @@ export default {
   width: auto;
   padding: 5px;
   max-width: -webkit-fill-available;
-
 }
 
 .ssh-image-div img {
@@ -191,6 +145,10 @@ export default {
 
 .step-1 {
   text-align: center;
+}
+
+.ssh-key-link {
+  padding: 40px;
 }
 </style>
 

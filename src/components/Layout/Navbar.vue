@@ -2,24 +2,24 @@
   <div class="navbar">
     <nav class="grey darken-3">
       <div class="container">
-        <router-link :to="{name: 'Home'}" class="brand-logo left">Wigan Coders</router-link>
+        <router-link :to="{name: 'Home'}" class="brand-logo left link">Wigan Coders</router-link>
 
         <ul class="right">
           <li v-if="!user">
-            <router-link :to="{name: 'Signup'}">Signup</router-link>
+            <router-link :to="{name: 'Signup'}" class="link">Signup</router-link>
           </li>
           <li v-if="!user">
-            <router-link :to="{name: 'Login'}">Login</router-link>
+            <router-link :to="{name: 'Login'}" class="link">Login</router-link>
           </li>
           <li v-if="user">
-            <router-link :to="{name: 'Curriculum'}">Curriculum</router-link>
+            <router-link :to="{name: 'Curriculum'}" class="link">Curriculum</router-link>
           </li>
           <li v-if="user">
-            <router-link :to="{name: 'GettingStarted'}">Getting Started</router-link>
+            <router-link :to="{name: 'GettingStarted'}" class="link">Getting Started</router-link>
           </li>
 
           <li v-if="user" class="logout-li">
-            <a @click="logout">Logout</a>
+            <a @click="logout" class="link">Logout</a>
           </li>
         </ul>
       </div>
@@ -80,4 +80,10 @@ nav {
 nav ul a {
   transition: none !important;
 }
+
+.link:hover {
+color: #00a1d6;
+
+}
+
 </style>

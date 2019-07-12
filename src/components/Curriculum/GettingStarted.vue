@@ -42,6 +42,9 @@ user: null
 <style scoped>
 h3 {
   text-align: center;
+    font-family: 'Montserrat', sans-serif;
+color: #00a1d6;
+
 }
 
 li {

@@ -4,7 +4,7 @@
       <h3 class="curriculum-h3">Wigan Coders Pathway</h3>
       <div class="card left">
         <h4>HTML</h4>
-        <p>A 14 day course that will give you the skills to create your own Portfolio!</p>
+        <p class="info-p">A 14 day course that will give you the skills to create your own Portfolio!</p>
         <ul>
           <p><span class="curriculum-span blue-grey lighten-4">Week 1</span></p>
           <li>* Start at the begining. Learn the history of HTML and understand it's importance.</li>
@@ -28,7 +28,7 @@
       </div>
       <div class="card left">
         <h4>CSS3</h4>
-        <p>A 7 day course that will give you the skills to create your own Landing Page!</p>
+        <p class="info-p">A 7 day course that will give you the skills to create your own Landing Page!</p>
         <ul>
           <p><span class="curriculum-span blue-grey lighten-4">Stage 1</span></p>
           <li>* Start at the begining. Learn the history of CSS and understand it's importance and purpose.</li>
@@ -80,7 +80,8 @@ h4 {
   margin-top: 60px;
   padding: 20px;
   background: #fafafa;
-  width: 50%;
+  width: 75%;
+  font-size: 18px;
 
 }
 
@@ -102,5 +103,11 @@ li {
 
 .curriculum-h3 {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+color: #00a1d6;
+}
+
+.info-p {
+  padding: 20px;
 }
 </style>
