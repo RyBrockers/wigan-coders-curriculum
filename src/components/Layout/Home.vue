@@ -67,23 +67,43 @@
           <br />We have listed just a few below
         </p>
         <ul class="reading-ul">
-          <a href="https://play.google.com/store/apps/details?id=com.knightcoder.programmingebooks&hl=en_GB" target="blank">
-          <li>Google Play Books</li>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.knightcoder.programmingebooks&hl=en_GB"
+            target="blank"
+          >
+            <li>Google Play Books</li>
           </a>
-           <a href="https://www.oreilly.com/programming/free/" target="blank">
-          <li>Oreilly</li>
+          <a href="https://www.oreilly.com/programming/free/" target="blank">
+            <li>Oreilly</li>
           </a>
-           <a href="https://www.programming-book.com/" target="blank">
-          <li>Programming-Book</li>
+          <a href="https://www.programming-book.com/" target="blank">
+            <li>Programming-Book</li>
           </a>
         </ul>
       </div>
       <div class="reading-text-2">
-        <p><span class="ebook-span">GitHub</span> is also a great place for free E-Books. We will use GitHub heavily throughout this course</p>
-       <a href="https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md" target="blank">
-         <img src="static/images/github-octocat co.png" class="git-icon" alt="github-svg"></a>
+        <p>
+          <span class="ebook-span">GitHub</span> is also a great place for free E-Books. We will use GitHub heavily throughout this course
+        </p>
+        <a
+          href="https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md"
+          target="blank"
+        >
+          <img src="static/images/github-octocat co.png" class="git-icon" alt="github-svg" />
+        </a>
       </div>
     </div>
+    <div class="card podcasts">
+
+      <div class="podcast-content">
+        <img src="static/images/podcast-icon.png" class="pod-img" alt />
+      </div>
+      <div class="card podcast-text">
+        <p>If Podcasts are your thing, then we can recommend a few of those as well.</p>
+      </div>
+    </div>
+
+
     <div class="card insta-div">
       <h3 class="home-h3">As seen on Instagram!</h3>
       <vue-instagram
@@ -275,6 +295,7 @@ h4 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .reading-div {
@@ -287,7 +308,6 @@ h4 {
 .reading-text {
   text-align: center;
   margin-top: 40px;
-
 }
 
 .reading-ul {
@@ -296,7 +316,7 @@ h4 {
 }
 
 .ebook-span {
-font-weight: bold;
+  font-weight: bold;
 }
 
 .reading-text-2 {
@@ -308,5 +328,22 @@ font-weight: bold;
 
 .git-icon {
   margin-top: 30px;
+}
+
+.podcast-content {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.podcasts {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.pod-header {
+  text-align: center;
 }
 </style>
