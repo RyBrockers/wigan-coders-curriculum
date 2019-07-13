@@ -205,7 +205,7 @@ export default {
 }
 
 .container-setup {
-  width: 50%;
+  width: 72%;
 }
 
 .vscode-p {

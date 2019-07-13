@@ -61,9 +61,18 @@ export default {
 </script>
 
 <style>
+
+.link {
+  padding: 7px;
+}
+
+nav .brand-logo {
+  margin-top: 20px;
+}
 .brand-logo {
   position: absolute;
   width: auto;
+
 }
 
 nav ul {
@@ -75,10 +84,6 @@ nav ul {
 
 nav {
   height: 115px;
-}
-
-nav ul a {
-  transition: none !important;
 }
 
 .link:hover {
