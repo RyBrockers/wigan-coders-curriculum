@@ -31,10 +31,23 @@
       <div class="rec-reading-container">
         <div class="card rec-reading">
           <img src="static/images/reading-image.png" alt="recommended-reading">
-          <h2>Take a look at our recomended reading</h2>
+          <h2>Take a look at our recommended reading</h2>
+          <div class="ueloquent">
+            <h2>Eloquent</h2>
+            <img src="static/images/upandgoing.jpg" alt="ebooks">
+            </div>
+
+             <div class="upandgoing">
+            <h2>Up and Going</h2>
+            <img src="static/images/eloquentjs.jpg" alt="ebooks">
+            <p>A fantastic Ebook to learn JavaScript</p>
+            </div>
         </div>
       </div>
     </div>
+
+
+
     <div class="card insta-div">
       <h3 class="home-h3">As seen on Instagram!</h3>
 
@@ -196,5 +209,17 @@ flex-direction: column;
 text-align: center;
 }
 
+.card.rec-reading {
+    justify-content: center;
+align-items: center;
+flex-direction: row;
+text-align: center;
+}
 
+.re-reading {
+  justify-content: center;
+align-items: center;
+flex-direction: row;
+text-align: center;
+}
 </style>
