@@ -42,9 +42,9 @@
             />
             <li class="setup-li">
               Next we will create a
-              <span class="step-1-span">GitHub</span> account. We use GitHub to keep track of our code and save it. We can share our code and collaberate with other dev's using GitHub. Find out more about GitHub and why we use it
+              <span class="step-1-span"><a href="https://github.com/" target="blank">GitHub</a></span> account. We use GitHub to keep track of our code and save it. We can share our code and collaberate with other dev's using GitHub. Find out more about GitHub and why we use it
               <a
-                href="https://github.com"
+                href="https://careerfoundry.com/en/blog/web-development/what-do-developers-use-github-for-heres-why-its-vital/"
                 target="blank"
               >HERE</a>
             </li>
