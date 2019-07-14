@@ -93,16 +93,42 @@
         </a>
       </div>
     </div>
+<div class="pod-wrapper">
+      <h2>Other learning resources</h2>
     <div class="card podcasts">
-
+      <div class="podcast-wrapper">
+      </div>
       <div class="podcast-content">
+        <h2 class="podcast-h2">Podcasts</h2>
+
         <img src="static/images/podcast-icon.png" class="pod-img" alt />
       </div>
       <div class="card podcast-text">
-        <p>If Podcasts are your thing, then we can recommend a few of those as well.</p>
+        <div class="podcast-p-div">
+  <p class="podcast-p">
+          If Podcasts are your thing, then we can recommend a few of those as well.
+          <br />Podcasts can be great for inspiration and that little help you may seek on your journey into Coding.
+          <br />Check out some our recommendations and get started today.
+        </p>
+        </div>
+        <div class="podcast-div">
+            <a href="https://learntocodewith.me/podcast/" target="blank">
+              <h2>Learn To Code With Me Podcast</h2>
+            </a>
+            <p
+              class="podcast-p"
+            >A fantastic place to hear stories of other people learning how to code. Some with full time jobs and small families.</p>
+            <a href="https://www.codenewbie.org/podcast/" target="blank">
+              <h2>CodeNewbie</h2>
+            </a>
+            <p
+              class="podcast-p"
+            >Exactly as it says on the tin. A place for people who are new to the coding community and want to know more.</p>
+        </div>
       </div>
     </div>
 
+</div>
 
     <div class="card insta-div">
       <h3 class="home-h3">As seen on Instagram!</h3>
@@ -336,7 +362,6 @@ h4 {
 }
 
 .podcasts {
-  margin-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,4 +371,29 @@ h4 {
 .pod-header {
   text-align: center;
 }
+
+.podcast-ul {
+  margin-top: 30px;
+}
+
+.podcast-p {
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.podcast-h2 {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.pod-wrapper h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
 </style>
