@@ -93,18 +93,14 @@
         </a>
       </div>
     </div>
-<div class="pod-wrapper">
-      <h2>Other learning resources</h2>
     <div class="card podcasts">
       <div class="podcast-wrapper">
       </div>
-      <div class="podcast-content">
-        <h2 class="podcast-h2">Podcasts</h2>
 
-        <img src="static/images/podcast-icon.png" class="pod-img" alt />
-      </div>
       <div class="card podcast-text">
         <div class="podcast-p-div">
+                  <h2 class="podcast-h2">Podcasts</h2>
+        <img src="static/images/podcast-icon.png" class="pod-img" alt />
   <p class="podcast-p">
           If Podcasts are your thing, then we can recommend a few of those as well.
           <br />Podcasts can be great for inspiration and that little help you may seek on your journey into Coding.
@@ -124,7 +120,6 @@
             <p
               class="podcast-p"
             >Exactly as it says on the tin. A place for people who are new to the coding community and want to know more.</p>
-        </div>
       </div>
     </div>
 
@@ -294,7 +289,7 @@ h4 {
 .rec-h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
 }
 
@@ -373,26 +368,41 @@ h4 {
 }
 
 .podcast-ul {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .podcast-p {
-  margin-bottom: 30px;
   text-align: center;
+  padding: 20px;
 
+}
+
+.podcast-p-div {
+  text-align: center;
+  padding: 10px;
 }
 
 .podcast-h2 {
   font-weight: bold;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 
-.pod-wrapper h2 {
+/* .pod-wrapper h2 {
   text-align: center;
   margin-top: 100px;
   font-weight: bold;
   font-size: 20px;
+} */
+
+.pod-img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.podcast-div h2 {
+  text-align: center;
 }
 
 
