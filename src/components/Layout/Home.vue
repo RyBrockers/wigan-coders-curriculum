@@ -310,7 +310,7 @@ h4 {
 }
 
 .rec-reading {
-  background: #d9e7ec;
+  background: #e6f4f5;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -361,6 +361,7 @@ h4 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background: #e6f4f5;
 }
 
 .pod-header {
