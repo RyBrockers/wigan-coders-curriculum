@@ -1,6 +1,7 @@
+// Please leave in any commented code
+
 <template>
   <div class="home">
-    <h1 class="home-h1">Have a look at what we have been up to.</h1>
     <div class="home-container">
       <div class="card center">
         <h2 class="up-h2">Get up and going!</h2>
@@ -94,36 +95,53 @@
       </div>
     </div>
     <div class="card podcasts">
-      <div class="podcast-wrapper">
-      </div>
+      <div class="podcast-wrapper"></div>
 
       <div class="card podcast-text">
         <div class="podcast-p-div">
-                  <h2 class="podcast-h2">Podcasts</h2>
-        <img src="static/images/podcast-icon.png" class="pod-img" alt />
-  <p class="podcast-p">
-          If Podcasts are your thing, then we can recommend a few of those as well.
-          <br />Podcasts can be great for inspiration and that little help you may seek on your journey into Coding.
-          <br />Check out some our recommendations and get started today.
-        </p>
+          <h2 class="podcast-h2">Podcasts</h2>
+          <img src="static/images/podcast-icon.png" class="pod-img" alt />
+          <p class="podcast-p">
+            If Podcasts are your thing, then we can recommend a few of those as well.
+            <br />Podcasts can be great for inspiration and that little help you may seek on your journey into Coding.
+            <br />Check out some our recommendations and get started today.
+          </p>
         </div>
         <div class="podcast-div">
-            <a href="https://learntocodewith.me/podcast/" target="blank">
-              <h2>Learn To Code With Me Podcast</h2>
-            </a>
-            <p
-              class="podcast-p"
-            >A fantastic place to hear stories of other people learning how to code. Some with full time jobs and small families.</p>
-            <a href="https://www.codenewbie.org/podcast/" target="blank">
-              <h2>CodeNewbie</h2>
-            </a>
-            <p
-              class="podcast-p"
-            >Exactly as it says on the tin. A place for people who are new to the coding community and want to know more.</p>
+          <a href="https://learntocodewith.me/podcast/" target="blank">
+            <h2>Learn To Code With Me Podcast</h2>
+          </a>
+          <p
+            class="podcast-p"
+          >A fantastic place to hear stories of other people learning how to code. Some with full time jobs and small families.</p>
+          <a href="https://www.codenewbie.org/podcast/" target="blank">
+            <h2>CodeNewbie</h2>
+          </a>
+          <p
+            class="podcast-p"
+          >Exactly as it says on the tin. A place for people who are new to the coding community and want to know more.</p>
+
+          <a href="https://syntax.fm/" target="blank">
+            <h2>SyntaxFM</h2>
+          </a>
+          <p
+            class="podcast-p"
+          >SyntaxFM is a great podcast for coding newbies and seasoned pro's alike. They have some great basic subjects leading into very advanced modules.</p>
+        </div>
       </div>
     </div>
 
-</div>
+    <div class="card video-tutorials">
+      <div class="tutorials-container">
+        <div class="youtube-icon">
+          <h2 class="youtube-h2">Youtube</h2>
+          <img src="static/images/youtube.png" alt />
+        </div>
+        <div
+          class="card youtube-p"
+        >Youtube video tutorials are a great <span class="youtube-span">free</span> resource to learn how to code. From beginner to pro, you are sure to find a tutorial to suit your needs.<br> Obviously we have some Wigan-Coders recommendations but there truly is no end to coding Youtube content.</div>
+      </div>
+    </div>
 
     <div class="card insta-div">
       <h3 class="home-h3">As seen on Instagram!</h3>
@@ -375,7 +393,6 @@ h4 {
 .podcast-p {
   text-align: center;
   padding: 20px;
-
 }
 
 .podcast-p-div {
@@ -406,5 +423,27 @@ h4 {
   text-align: center;
 }
 
+.tutorials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 
+.youtube-h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.youtube-p {
+  padding: 20px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.youtube-span {
+  font-weight: bold;
+}
 </style>
