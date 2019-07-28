@@ -143,7 +143,9 @@
       </div>
     </div>
 
-    <div class="card insta-div">
+
+
+  <div class="card insta-div">
       <h3 class="home-h3">As seen on Instagram!</h3>
       <vue-instagram
         token="16190182252.1677ed0.c5289a2dab244b999103af2d61878af1"
@@ -160,6 +162,8 @@
       </vue-instagram>
     </div>
   </div>
+
+
 </template>
 
 
