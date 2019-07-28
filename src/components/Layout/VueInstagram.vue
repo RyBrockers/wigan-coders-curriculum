@@ -23,7 +23,7 @@ export default {
     */
     count: {
       type: Number,
-      default: 4,
+      default: 6,
       required: false
     },
     /*

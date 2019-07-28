@@ -149,7 +149,7 @@
         token="16190182252.1677ed0.c5289a2dab244b999103af2d61878af1"
         class="the-feed"
         username="Wigancoding"
-        :count="4"
+        :count="6"
       >
         <template slot="feeds" scope="props">
           <img :src=" props.feed.images.thumbnail.url " alt class="feed-image" />
